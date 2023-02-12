@@ -3,4 +3,5 @@ function setup (){
 }
 function draw (){
   background(110);
+  fullscreen(!fs);
 }
