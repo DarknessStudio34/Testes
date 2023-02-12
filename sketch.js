@@ -1,7 +1,7 @@
 var pd = pixelDensity ();
 function setup (){
   createCanvas(windowWidth, windowHeight);
-  pixelDensity(1)
+  pixelDensity()
 }
 function draw (){
   background(110);
