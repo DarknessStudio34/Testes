@@ -1,6 +1,6 @@
 function setup (){
   createCanvas(windowWidth, windowHeight);
-  pixelDensity(10.0);
+  pixelDensity(3.0);
 }
 function draw (){
   background(110);
