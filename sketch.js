@@ -1,3 +1,4 @@
+var pd = pixelDensity ();
 function setup (){
   createCanvas(windowWidth, windowHeight);
   pixelDensity(1)
