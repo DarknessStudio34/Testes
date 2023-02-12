@@ -3,5 +3,7 @@ function setup (){
 }
 function draw (){
   background(110);
+}
+function mouseClicked (){
   fullscreen(!fs);
 }
