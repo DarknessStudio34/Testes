@@ -9,7 +9,7 @@ function draw (){
     w = displatWidth; h = displayHeight; text('display', 10, 10)
   }
   else {
-    w = screenWidth; h = screenHeight; text('screen', 10, 10)
+    w = windowWidth; h = windowHeight; text('screen', 10, 10)
   }
 }
 var s = 0;
