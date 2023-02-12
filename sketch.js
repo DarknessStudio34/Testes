@@ -1,7 +1,7 @@
 function setup (){
   createCanvas(w, h)
 }
-var w, h
+var w = windowWidth, h = windowHeight
 
 function draw (){
   background(220);
