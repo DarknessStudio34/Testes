@@ -1,6 +1,8 @@
 function setup (){
   createCanvas(w, h)
 }
+var w, h
+
 function draw (){
   background(220);
   if (s == 1){
