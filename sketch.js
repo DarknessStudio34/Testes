@@ -1,10 +1,10 @@
-let pd = pixelDensity(); // recupera o valor de pixelDensity()
+let pd = pixelDensity
 
  // exibe o valor de pixelDensity() no console
 
 function setup (){
   createCanvas(windowWidth, windowHeight);
-  pixelDensity()
+  pixelDensity();
 }
 function draw (){
   console.log(pd);
