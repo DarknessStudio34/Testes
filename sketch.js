@@ -2,7 +2,7 @@ var w = 1080; h = 1920
 
 function setup (){
   createCanvas(windowWidth, windowHeight);
-  pixelDensity();
+  pixelDensity(3);
 }
 function draw (){
   background(110);
