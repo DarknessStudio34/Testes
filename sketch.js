@@ -1,8 +1,8 @@
 var w = 1080; h = 1920
 
 function setup (){
-  createCanvas(w, h);
-  pixelDensity(4.0);
+  createCanvas(windowWidth, windowHeight);
+  pixelDensity();
 }
 function draw (){
   background(110);
@@ -10,6 +10,7 @@ function draw (){
   text (canvas.height, 40, 10);
   text(mouseX, 70, 10)
   text(mouseY, 100, 10)
+  circle(100, 100, 20)
 }
 var x = canvas.width, y = canvas.height
 function mouseClicked (){
