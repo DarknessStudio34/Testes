@@ -1,5 +1,5 @@
 function setup (){
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(1080, 960);
   pixelDensity(2.0);
 }
 function draw (){
