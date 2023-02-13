@@ -1,7 +1,3 @@
-let pd = pixelDensity
-
- // exibe o valor de pixelDensity() no console
-
 function setup (){
   createCanvas(windowWidth, windowHeight);
   pixelDensity();
