@@ -6,10 +6,11 @@ function draw (){
   background(110);
   text (canvas.width, 10, 10);
   text (canvas.height, 40, 10);
-  rect(canvas.width, 1, 0, canvas.height );
+  text(mouseX, 70, 10)
+  text(mouseY, 100, 10)
 }
 var x = canvas.width, y = canvas.height
 function mouseClicked (){
-  fullscreen(!fs);
+  fullscreen();
 }
 
