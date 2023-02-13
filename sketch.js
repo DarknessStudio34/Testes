@@ -14,7 +14,7 @@ function draw (){
 }
 var x = canvas.width, y = canvas.height
 function mouseClicked (){
-  toggleFullScreen();
+  //toggleFullScreen();
 }
 function toggleFullScreen() {
   if ((document.fullScreenElement && document.fullScrenElement !== null) ||    
